@@ -1,0 +1,32 @@
+.addTodo{
+    display: flex;
+    flex-direction: row;
+    /* background-color: blue; */
+    height: 70px;
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;
+    align-items: center;
+    justify-content: center;
+}
+.addTodo input{
+    width: 310px;
+    height: 50px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 5px;
+}
+.addTodo button{
+    width:120px;
+    height: 52px;
+    margin-left: 2px;
+    background-color:#e65245 ;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+}
+.addTodo button:hover{
+    background-color:rgb(219, 63, 63)
+}

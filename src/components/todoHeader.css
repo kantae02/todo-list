@@ -1,0 +1,27 @@
+.todoHeader {
+    display: flex;
+    flex-direction: column;
+    /* background-color: aqua; */
+    margin: auto;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+.todoHeader h1{
+    color: #e65245;
+    font-size: 50px;
+}
+.todoHeader p{
+    font-size: 18px;
+    color: rgb(250, 244, 244);
+    margin-top: -30px;
+    margin-left: 10px;
+}
+.todoHeader p::after{
+    content: "";
+    position: absolute;
+    width: 30%;
+    height:1px;
+    top:27%;
+    left:35%;
+    background-color: rgb(250, 244, 244);
+}

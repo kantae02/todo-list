@@ -1,0 +1,39 @@
+.todoContains{
+   display: flex;
+   flex-direction: row;
+   align-items:center;
+   justify-content: center;
+   /* background-color: brown; */
+   height:12%;
+   width:95%;
+   margin: auto;
+   margin-top: 3%;
+   border: 1px solid #e65245;
+   border-radius: 5px;
+   color: white;
+   
+}
+.task{
+   /* background-color: aquamarine; */
+   width:80%;
+}
+.todoContains p {
+  font-size: large;
+  text-decoration-thickness: 0.4rem;
+  
+} 
+.fonts{
+   margin-right: 0%;
+   /* background-color: aqua; */
+   font-size: large;
+   height: 50%;
+
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   gap: 15px;
+}
+.fonts .check:hover , .trash :hover{
+ color: #e65245;
+}

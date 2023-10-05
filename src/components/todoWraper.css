@@ -1,0 +1,9 @@
+.todoWraper{
+    width:35vw;
+    height:80vh;
+    margin: auto;
+    margin-top: 6%;
+    background-color: rgb(236, 181, 114);;
+    border-radius: 10px;
+    box-shadow: 4px 4px 5px rgb(225, 217, 201);
+}
